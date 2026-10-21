@@ -1,0 +1,31 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef struct Chainon{
+        int elmt;
+        struct Chainon *suivant;
+}Chainon;
+
+
+Chainon *creationChainon(int a){
+	Chainon *n=malloc(sizeof(Chainon));
+	if(n==NULL){
+		exit(1);
+	}
+	n->elmta;
+	n->suivant=NULL;
+	return n;	
+}
+
+emplier(Chainon *pplie, int a){
+	Chainon *nouveau=creationChainon(a);
+	nouveau->suivant=ppile;
+	return nouveau;
+	
+}
+	
+int main(){
+	Chainon *ppile=NULL;
+	return 0;	
+
+}
